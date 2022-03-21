@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="https://boolean.careers/favicon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Js_Simon</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simon Says</h1>
+        <p id="consegna">Prova a ricordare i numeri che appariranno nella finestra</p>
+        <button id="start-game">Avvia il gioco!</button>
+
+        <dialog id="del-timer">
+            <div id="delivery"></div>
+            <div class="time">Timer: <span id="timer"></span></div>
+        </dialog>
+
+        <dialog id="game">
+            <div class="container-dialog">
+                <div class="inputs">
+                    <input type="text" maxlength="3" class="my-input">
+                    <input type="text" maxlength="3" class="my-input">
+                    <input type="text" maxlength="3" class="my-input">
+                    <input type="text" maxlength="3" class="my-input">
+                    <input type="text" maxlength="3" class="my-input">
+                </div>
+                <button id="submit">submit</button>
+            </div>
+        </dialog>
+        <div class="risultato">
+            <div id="results"></div>
+            <div id="score" class="display-none"></div>
+        </div>
+        <div id="right-number"></div>
+        <div></div>
+    </div>
+</body>
+
+</html>
